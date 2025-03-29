@@ -6,6 +6,7 @@
     <title>Unordered List</title>
 </head>
 <body>
+    <h1>1. Unordered List</h1>
     <!-- ul untuk membuat daftar tanpa urutan biasanya menggunakan simbol -->
      <ul style="list-style-type: square;">
         <!-- <li> list item  untuk membuat daftar-->
@@ -28,5 +29,77 @@
             </ul>
         </li>
      </ul>
+     <hr>
+         <!-- <ol>Ordered list</ol> digunkan untuk membuat list yg terurut menggunakan(angka, romawi, atau huruf) -->
+    <h1>2. Ordered List</h1>
+    <ol>
+        <li>Bangun Tidur</li>
+        <li>Sarapan</li>
+        <li>Balajar</li>
+        <li>Istirahat</li>
+    </ol>
+    <!-- Jenis penomoran dalam ordered list -->
+    <!-- type="A" -->
+    <h2>A. Jenis Penomoran Dalam List</h2>
+     <h3> a. Ordered List menggunakan huruf besar</h3>
+     <ol type="A">
+         <li>Bangun Tidur</li>
+    </ol>
+     <h3> b. Ordered List menggunakan huruf kecil</h3>
+     <ol type="a">
+         <li>Bangun Tidur</li>
+    </ol>
+    <h2> c. Ordered List menggunakan angka</h2>
+     <ol type="1">
+        <li>Angka (1, 2, 3)</li>
+     </ol>
+    <h3> d. Ordered List menggunakan angka romawi besar</h3>
+     <ol type="I">
+        <li>Angka Romawi Besar(I, II, III)</li>
+     </ol>
+    <h3> e. Ordered List menggunakan angka romawi kecil</h3>
+     <ol type="i">
+        <li>Angka Romawi Kecil(i, ii, iii)</li>
+     </ol>
+     <!-- mengatur nomor tertentu -->
+    <h3> f. Mengatur Nomor Tertentu</h3>
+      <ol type="1" start="4">
+        <li>Bangun Tidur</li>
+      </ol>
+      <ol type="A" start="4">
+        <li>Bangun Tidur</li>
+      </ol>
+      <hr>
+        <!-- definition list digunkan untuk menampilkan daftar istilah dan definisinya -->
+        <h1>3. Definition List</h1>
+        <dl>
+           <!-- dt -> definition term menampilkan istilah -->
+            <dt>HTML</dt>
+           <!-- dd -> definition description -> menampilkan istilah -->
+            <dd>HyperText Markup Language - bahasa untuk membuat halaman web</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets - digunakan untuk mendasain tampilkan web</dd>
+            <dt>Javascript</dt>
+            <dd>Bahasa Pemrograman yg digunakan untuk membuat halaman web interaktif</dd>
+        </dl>
+        <h2>A. Definition List Bersarang</h2>
+        <dl>
+           <dt>Teknologi Web</dt>
+           <dd>
+               <dl>
+                   <dt>HTML</dt>
+                   <dd>Bahasa markup untuk membuat struktur halaman web.</dd>
+                   <dt>CSS</dt>
+                   <dd>Digunakan untuk mempercantik tampilan web</dd>
+               </dl>
+           </dd>
+           <dt>Bahasa Pemrograman</dt>
+           <dd>
+               <dl>
+                   <dt>Python</dt>
+                   <dd>Bahasa pemrograman serbaguna yg mudah dipelajari</dd>
+               </dl>
+           </dd>
+        </dl>
 </body>
 </html>
