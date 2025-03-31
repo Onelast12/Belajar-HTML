@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <!-- membuat tabel -->
+    <h1>Belajar Table</h1>
+    <table border="1" cellspacing="10" cellpadding="5">
+        <!-- cellspacing jarak antar sel -->
+        <!-- cellpadding ruang di dalam sel -->
+        <!-- tr membuat baris -->
+        <!-- caption judul table -->
+        <caption>Data</caption>
+        <thead>
+            <tr>
+                <!-- th membuat sel header -->
+                <th>Nama</th>
+                <th>Usia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- td membuat sel kolom dalam baris -->
+                <td>Bob</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Kombinasi Colspan & Rowspan</h2>
+    <table border="1">
+        <caption>Data Nilai</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">No</th>
+                <th rowspan="2">Nama</th>
+                <th colspan="2">Nilai</th>
+            </tr>
+            <tr>
+                <th>Matematika</th>
+                <th>Bahasa</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Patrick</td>
+                <td>85</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Spongebob</td>
+                <td>80</td>
+                <td>88</td>
+            </tr>
+        </tbody>
+   
+    </table>
+    <h2>Latihan</h2>
+    <table border="1">
+        <caption>Data Bikini Bottom</caption>
+        <thead>
+            <tr">
+                <th rowspan="2">No</th>
+                <th colspan="2">Nama</th>
+                <th rowspan="2">Age</th>
+            </tr>
+            <tr>
+                <th>Nama Depan</th>
+                <th>Nama Belakang</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Patrick</td>
+                <td>Star</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Spongebob</td>
+                <td>Squarepants</td>
+                <td>21</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
